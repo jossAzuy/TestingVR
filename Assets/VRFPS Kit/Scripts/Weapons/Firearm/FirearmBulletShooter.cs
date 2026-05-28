@@ -37,6 +37,7 @@ namespace VRFPSKit
             
             //Track which BulletShooter shot the bullet
             bullet.shooter = this;
+            bullet.bulletOwner = BulletOwner.Player;
             
             //Apply bullet properties
             bullet.Initialize(ballisticProfile);

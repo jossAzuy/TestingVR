@@ -141,8 +141,8 @@ MonoBehaviour:
   hitSound: {fileID: 0}
   defaultImpactEffect: {fileID: 6864460401328986121, guid: ae4af795013cff0478fd56ab87e3edee, type: 3}
   tracerTail: {fileID: 6542671339159878805}
-  ballisticProfile: {fileID: 11400000, guid: 0e87226e23353e7488eaacd6b8a75c93, type: 2}
   bulletType: 0
+  bulletOwner: 0
   shooter: {fileID: 0}
 --- !u!54 &6060197208960264168
 Rigidbody:

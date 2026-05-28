@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1867365102622606365}
   - component: {fileID: 1148119551768616824}
   - component: {fileID: 5729097087080417328}
-  m_Layer: 7
+  m_Layer: 21
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -103,7 +103,7 @@ GameObject:
   - component: {fileID: 6060197208960264168}
   - component: {fileID: 6681477248529835180}
   - component: {fileID: -2495164740795239734}
-  m_Layer: 7
+  m_Layer: 21
   m_Name: EnemyBullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -120,8 +120,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1867365102622606365}
   - {fileID: 9065160810100664489}
@@ -142,9 +142,9 @@ MonoBehaviour:
   hitSound: {fileID: 0}
   defaultImpactEffect: {fileID: 6864460401328986121, guid: ae4af795013cff0478fd56ab87e3edee, type: 3}
   tracerTail: {fileID: 6542671339159878805}
-  ballisticProfile: {fileID: 11400000, guid: b1649b156ddb8dd4d8d2a0f2c38e249f, type: 2}
+  bulletCollisionFeedbackPlayer: {fileID: 8438014519122650230, guid: 994d3b19b7e103e41a2ab9489b3e3c35, type: 3}
   bulletType: 0
-  damageAndImpactTag: Head
+  bulletOwner: 1
   shooter: {fileID: 0}
 --- !u!54 &6060197208960264168
 Rigidbody:
@@ -301,7 +301,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9065160810100664489}
   - component: {fileID: 452577250835464341}
-  m_Layer: 7
+  m_Layer: 21
   m_Name: Tracer Trail
   m_TagString: Untagged
   m_Icon: {fileID: 0}

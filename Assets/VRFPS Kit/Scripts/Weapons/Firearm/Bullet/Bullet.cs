@@ -4,6 +4,12 @@ using Random = UnityEngine.Random;
 
 namespace VRFPSKit
 {
+    public enum BulletOwner
+    {
+        Player,
+        Enemy
+    }
+
     /// <summary>
     /// Represents a physical bullet that has been fired
     /// </summary>
@@ -16,7 +22,9 @@ namespace VRFPSKit
         public AudioSource hitSound;
         public GameObject defaultImpactEffect;
         public GameObject tracerTail;
+        public GameObject bulletCollisionFeedbackPlayer;
         public BulletType bulletType;
+        public BulletOwner bulletOwner;
         public FirearmBulletShooter shooter;
 
         private BallisticProfile _ballisticProfile;
@@ -73,6 +81,20 @@ namespace VRFPSKit
         private void OnCollisionEnter(Collision collision)
         {
             if (_rigidbody.isKinematic) return; //Do nothing if bullet is destroyed
+
+            Bullet otherBullet = collision.collider.GetComponentInParent<Bullet>();
+            if (otherBullet != null && otherBullet != this)
+            {
+                if (otherBullet.bulletOwner != bulletOwner)
+                {
+                    PlayBulletCollisionFeedback();
+                    otherBullet.PlayBulletCollisionFeedback();
+                    Destroy(gameObject);
+                    Destroy(otherBullet.gameObject);
+                }
+
+                return;
+            }
             
             //Simple 3-case flow:
             //1) Firearm hit -> block the bullet
@@ -149,6 +171,12 @@ namespace VRFPSKit
 
             //Schedule destruction, let sound play out first
             Invoke(nameof(Despawn), 2);
+        }
+
+        private void PlayBulletCollisionFeedback()
+        {
+            if (bulletCollisionFeedbackPlayer != null)
+                bulletCollisionFeedbackPlayer.SendMessage("PlayFeedbacks", SendMessageOptions.DontRequireReceiver);
         }
 
         private float GetRemainingVelocity01() => Mathf.InverseLerp(0, _ballisticProfile.startVelocity, _rigidbody.linearVelocity.magnitude); 

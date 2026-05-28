@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectileAmount: 1
   baseDamage: 10
-  scaleDamageWithVelocity: 1
-  startVelocity: 50
-  gravityScale: 1
+  scaleDamageWithVelocity: 0
+  startVelocity: 7
+  gravityScale: 0
   drag: 1
   randomSpreadAngle: 0

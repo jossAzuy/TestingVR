@@ -37,6 +37,7 @@ namespace VRFPSKit
 
         [Header("Die Feedback")]
         public GameObject deathFeedbackPlayer;
+        public float destroyDelayAfterDeath = 0f;
 
 
         private float _nextFireTime;
@@ -92,11 +93,16 @@ namespace VRFPSKit
 
         private void HandleDeath()
         {
+            if (_isDead)
+                return;
+
             Debug.Log($"EnemyShooter on {gameObject.name} died.");
+            _isDead = true;
             if (deathFeedbackPlayer != null)
                 deathFeedbackPlayer.SendMessage("PlayFeedbacks", SendMessageOptions.DontRequireReceiver);
 
-            _isDead = true;
+            Destroy(gameObject, Mathf.Max(0f, destroyDelayAfterDeath));
+
             _shotQueued = false;
             enabled = false;
         }
@@ -150,6 +156,7 @@ namespace VRFPSKit
             if (projectileObject.TryGetComponent(out Bullet bullet))
             {
                 bullet.shooter = null;
+                bullet.bulletOwner = BulletOwner.Enemy;
                 bullet.Initialize(ballisticProfile);
                 bullet.bulletType = bulletType;
             }
