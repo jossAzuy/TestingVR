@@ -16,10 +16,10 @@ namespace VRFPSKit
         public AudioSource hitSound;
         public GameObject defaultImpactEffect;
         public GameObject tracerTail;
-        [Space]
-        public BallisticProfile ballisticProfile;
         public BulletType bulletType;
-        public BulletShooter shooter;
+        public FirearmBulletShooter shooter;
+
+        private BallisticProfile _ballisticProfile;
         
         //NOTE events will only be called on server
         public event Action<Bullet> HitEvent;
@@ -30,18 +30,25 @@ namespace VRFPSKit
         void Start()
         {
             _rigidbody = GetComponent<Rigidbody>();
+
+            if (_ballisticProfile == null)
+            {
+                Debug.LogError($"Bullet on {gameObject.name} has no ballistic profile assigned.");
+                enabled = false;
+                return;
+            }
             
             //Bullet apply randomSpreadAngle to rotation
-            if(ballisticProfile.randomSpreadAngle != 0)
+            if(_ballisticProfile.randomSpreadAngle != 0)
                 transform.rotation *= Quaternion.Euler(
-                    Random.Range(-ballisticProfile.randomSpreadAngle, ballisticProfile.randomSpreadAngle) , 
-                    Random.Range(-ballisticProfile.randomSpreadAngle, ballisticProfile.randomSpreadAngle), 0);//TODO this doesnt work
+                    Random.Range(-_ballisticProfile.randomSpreadAngle, _ballisticProfile.randomSpreadAngle) , 
+                    Random.Range(-_ballisticProfile.randomSpreadAngle, _ballisticProfile.randomSpreadAngle), 0);//TODO this doesnt work
             
-            _rigidbody.AddForce(transform.forward * ballisticProfile.startVelocity, ForceMode.VelocityChange);
+            _rigidbody.AddForce(transform.forward * _ballisticProfile.startVelocity, ForceMode.VelocityChange);
             _rigidbody.useGravity = false; //Use custom gravity solution
             
             //Rigidbody drag from profile
-            _rigidbody.linearDamping = ballisticProfile.drag;
+            _rigidbody.linearDamping = _ballisticProfile.drag;
             
             tracerTail.SetActive(bulletType == BulletType.Tracer);
             
@@ -51,11 +58,16 @@ namespace VRFPSKit
         private void FixedUpdate()
         {
             //Custom gravity implementation
-            _rigidbody.AddForce(Physics.gravity * ballisticProfile.gravityScale, ForceMode.Acceleration);
+            _rigidbody.AddForce(Physics.gravity * _ballisticProfile.gravityScale, ForceMode.Acceleration);
             
             //Despawn bullet if remaining velocity is to low, not if it is 0 though cause that means it hasn't started moving yet
             //1 is starting velocity, 0 is standing still
             if (GetRemainingVelocity01() < MinimumVelocity01 && GetRemainingVelocity01() != 0){ DestroyBullet();}
+        }
+
+        public void Initialize(BallisticProfile ballisticProfile)
+        {
+            _ballisticProfile = ballisticProfile;
         }
 
         private void OnCollisionEnter(Collision collision)
@@ -102,10 +114,10 @@ namespace VRFPSKit
             Collider dmgCollider = collision.collider;
             if (dmgCollider.gameObject.GetComponentInParent<IDamageReciever>() is IDamageReciever damageReciever)
             {
-                float damage = ballisticProfile.baseDamage;
-                if(ballisticProfile.scaleDamageWithVelocity)
+                float damage = _ballisticProfile.baseDamage;
+                if(_ballisticProfile.scaleDamageWithVelocity)
                 {
-                    float impulseScale01 = collision.GetContact(0).impulse.magnitude / _rigidbody.mass / ballisticProfile.startVelocity;
+                    float impulseScale01 = collision.GetContact(0).impulse.magnitude / _rigidbody.mass / _ballisticProfile.startVelocity;
                     damage *= impulseScale01;
                 }
                 damage = Mathf.Max(damage); //Damage can't be less than 0
@@ -139,7 +151,7 @@ namespace VRFPSKit
             Invoke(nameof(Despawn), 2);
         }
 
-        private float GetRemainingVelocity01() => Mathf.InverseLerp(0, ballisticProfile.startVelocity, _rigidbody.linearVelocity.magnitude); 
+        private float GetRemainingVelocity01() => Mathf.InverseLerp(0, _ballisticProfile.startVelocity, _rigidbody.linearVelocity.magnitude); 
         
         private void PlayImpactEffect(Collider impactCollider, Vector3 impactPoint, Vector3 impactNormal, bool forceDefaultImpactEffect = false, bool playImpactAudio = false)
         {

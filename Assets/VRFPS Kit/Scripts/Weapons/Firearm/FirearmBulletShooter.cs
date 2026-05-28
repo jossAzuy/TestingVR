@@ -10,7 +10,7 @@ namespace VRFPSKit
     /// <summary>
     /// Shoots a physical bullet projectile, as opposed to say shotgun pellets
     /// </summary>
-    public class BulletShooter : MonoBehaviour
+    public class FirearmBulletShooter : MonoBehaviour
     {
         public BallisticProfile ballisticProfile;
         [Space]
@@ -24,6 +24,12 @@ namespace VRFPSKit
         /// <param name="cartridge">Specifies bullet properties</param>
         public void ShootBullet(Cartridge cartridge, Vector3 bulletPosition, Quaternion bulletRotation)
         {
+            if (ballisticProfile == null)
+            {
+                Debug.LogError($"BulletShooter on {gameObject.name} needs a ballistic profile assigned.");
+                return;
+            }
+
             GameObject obj = Instantiate(bulletPrefab, bulletPosition, bulletRotation);
             Bullet bullet = obj.GetComponent<Bullet>();
 
@@ -33,11 +39,8 @@ namespace VRFPSKit
             bullet.shooter = this;
             
             //Apply bullet properties
+            bullet.Initialize(ballisticProfile);
             bullet.bulletType = cartridge.bulletType;
-            if (ballisticProfile == null)
-                Debug.LogWarning($"BulletShooter on {gameObject.name} does not have a ballistic profile assigned, using bullet default");
-            else
-                bullet.ballisticProfile = ballisticProfile;
         }
 
         /// <summary>

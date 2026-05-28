@@ -1,5 +1,6 @@
 using UnityEngine;
 
+
 namespace VRFPSKit
 {
     /// <summary>
@@ -33,6 +34,10 @@ namespace VRFPSKit
         public bool useRaycastIfNoBulletPrefab = true;
         public float raycastDamage = 15f;
         public LayerMask raycastMask = ~0;
+
+        [Header("Die Feedback")]
+        public GameObject deathFeedbackPlayer;
+
 
         private float _nextFireTime;
         private float _shotReadyTime;
@@ -88,6 +93,9 @@ namespace VRFPSKit
         private void HandleDeath()
         {
             Debug.Log($"EnemyShooter on {gameObject.name} died.");
+            if (deathFeedbackPlayer != null)
+                deathFeedbackPlayer.SendMessage("PlayFeedbacks", SendMessageOptions.DontRequireReceiver);
+
             _isDead = true;
             _shotQueued = false;
             enabled = false;
@@ -142,9 +150,8 @@ namespace VRFPSKit
             if (projectileObject.TryGetComponent(out Bullet bullet))
             {
                 bullet.shooter = null;
+                bullet.Initialize(ballisticProfile);
                 bullet.bulletType = bulletType;
-                if (ballisticProfile != null)
-                    bullet.ballisticProfile = ballisticProfile;
             }
 
             IgnoreSelfCollisions(projectileObject);
