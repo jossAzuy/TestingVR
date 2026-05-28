@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 6119b32307db68748af35e7705b204a8
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270649
+  packageName: VR FPS Kit
+  packageVersion: 12.0.0
+  assetPath: Assets/VRFPS Kit/Scripts/Tests/XRSocketInteractorStartingInteractableTest.cs
+  uploadId: 877358

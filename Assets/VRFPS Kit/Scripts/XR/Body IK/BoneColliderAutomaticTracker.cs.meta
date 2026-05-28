@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 81b9ecab37936b44b9bf67458da400cd
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270649
+  packageName: VR FPS Kit
+  packageVersion: 12.0.0
+  assetPath: Assets/VRFPS Kit/Scripts/XR/Body IK/BoneColliderAutomaticTracker.cs
+  uploadId: 877358

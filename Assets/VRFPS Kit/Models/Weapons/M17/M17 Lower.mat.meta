@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: dc1fb6340cf70604ab40072b17157a72
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270649
+  packageName: VR FPS Kit
+  packageVersion: 12.0.0
+  assetPath: Assets/VRFPS Kit/Models/Weapons/M17/M17 Lower.mat
+  uploadId: 877358

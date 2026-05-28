@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 3a6eff148a78a63419d7ae877dc7acd2
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270649
+  packageName: VR FPS Kit
+  packageVersion: 12.0.0
+  assetPath: Assets/VRFPS Kit/Prefabs/Skeletons/Physics Skeleton.prefab
+  uploadId: 877358

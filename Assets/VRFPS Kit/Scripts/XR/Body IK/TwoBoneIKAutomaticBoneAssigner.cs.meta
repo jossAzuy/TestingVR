@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: e08438963c3116b42ba3380f40688fd7
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270649
+  packageName: VR FPS Kit
+  packageVersion: 12.0.0
+  assetPath: Assets/VRFPS Kit/Scripts/XR/Body IK/TwoBoneIKAutomaticBoneAssigner.cs
+  uploadId: 877358

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 1dd84364d8b1243468146344f48c2624
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270649
+  packageName: VR FPS Kit
+  packageVersion: 12.0.0
+  assetPath: Assets/VRFPS Kit/Prefabs/Objects/Targets/Tin Can.prefab
+  uploadId: 877358

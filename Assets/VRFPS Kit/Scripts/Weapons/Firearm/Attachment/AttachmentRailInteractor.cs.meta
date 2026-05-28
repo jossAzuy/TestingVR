@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: cadc25982c4b3e04caac99728ebb05f4
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270649
+  packageName: VR FPS Kit
+  packageVersion: 12.0.0
+  assetPath: Assets/VRFPS Kit/Scripts/Weapons/Firearm/Attachment/AttachmentRailInteractor.cs
+  uploadId: 877358

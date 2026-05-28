@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 4101fa29626f6a043a462595500cdc36
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270649
+  packageName: VR FPS Kit
+  packageVersion: 12.0.0
+  assetPath: Assets/VRFPS Kit/Scripts/Weapons/Firearm/Input/FirearmChargingGripActionInteractable.cs
+  uploadId: 877358

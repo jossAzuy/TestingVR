@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: cdbb62e7025b8484697aaece0dcb47e4
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270649
+  packageName: VR FPS Kit
+  packageVersion: 12.0.0
+  assetPath: Assets/VRFPS Kit/Scripts/XR/Socket/XRImprovedSocketInteractor/XRImprovedSocketInteractor.cs
+  uploadId: 877358

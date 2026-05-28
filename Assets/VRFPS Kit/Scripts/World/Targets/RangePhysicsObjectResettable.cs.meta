@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 938b9325354bfc54aa71e7a98066a0b9
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270649
+  packageName: VR FPS Kit
+  packageVersion: 12.0.0
+  assetPath: Assets/VRFPS Kit/Scripts/World/Targets/RangePhysicsObjectResettable.cs
+  uploadId: 877358

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: fc9d38a14d06501449d20be7121a5c9b
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270649
+  packageName: VR FPS Kit
+  packageVersion: 12.0.0
+  assetPath: Assets/VRFPS Kit/Prefabs/Objects/Player/Watch.prefab
+  uploadId: 877358

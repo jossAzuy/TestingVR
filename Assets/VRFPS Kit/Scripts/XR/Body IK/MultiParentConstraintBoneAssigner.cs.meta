@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 9d1c3336c8ec4344da1e1234618bc123
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270649
+  packageName: VR FPS Kit
+  packageVersion: 12.0.0
+  assetPath: Assets/VRFPS Kit/Scripts/XR/Body IK/MultiParentConstraintBoneAssigner.cs
+  uploadId: 877358

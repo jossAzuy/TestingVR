@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d0fb88755937ba14695273f6c6e438ca
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 112000000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270649
+  packageName: VR FPS Kit
+  packageVersion: 12.0.0
+  assetPath: Assets/VRFPS Kit/Scenes/Shooting Range/Shooting Range/LightingData.asset
+  uploadId: 877358

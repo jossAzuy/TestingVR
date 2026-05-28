@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 5ae542dddf29779428ad01e2d321e068
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270649
+  packageName: VR FPS Kit
+  packageVersion: 12.0.0
+  assetPath: Assets/VRFPS Kit/Prefabs/Objects/Player/Left Hand Presence Model.prefab
+  uploadId: 877358

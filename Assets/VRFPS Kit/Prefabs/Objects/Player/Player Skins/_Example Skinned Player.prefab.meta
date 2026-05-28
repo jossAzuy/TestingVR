@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8ab9fdb4e0504a943982a0bb2377014a
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270649
+  packageName: VR FPS Kit
+  packageVersion: 12.0.0
+  assetPath: Assets/VRFPS Kit/Prefabs/Objects/Player/Player Skins/_Example Skinned
+    Player.prefab
+  uploadId: 877358

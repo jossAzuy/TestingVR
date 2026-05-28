@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 79e8dc140c255924aabf6805a81a755b
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270649
+  packageName: VR FPS Kit
+  packageVersion: 12.0.0
+  assetPath: Assets/VRFPS Kit/Prefabs/Objects/Player/Player Skins/Simple Player Body.prefab
+  uploadId: 877358

@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: cd410e3e871c3fe4683321b9e1687892
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270649
+  packageName: VR FPS Kit
+  packageVersion: 12.0.0
+  assetPath: Assets/VRFPS Kit/Scripts/XR/Body IK/HandIKTrackingDelayFix.cs
+  uploadId: 877358

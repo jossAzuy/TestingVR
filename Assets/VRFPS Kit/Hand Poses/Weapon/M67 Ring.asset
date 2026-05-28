@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d02cb3d4049eb744aaec89df810020ab, type: 3}
+  m_Name: M67 Ring
+  m_EditorClassIdentifier: 
+  leftHandInfo:
+    attachPosition: {x: 0.02480009, y: -0.00000000945583, z: -0.07949991}
+    attachRotation: {x: -0.08548136, y: -0.015192689, z: 0.69734764, w: 0.7114554}
+    indexOrientation:
+    - relativeDigitEndPoint: {x: -0.013795523, y: 0.023049371, z: 0.05026446}
+    - relativeDigitEndPoint: {x: -0.008465341, y: 0.010987082, z: 0.03246436}
+    - relativeDigitEndPoint: {x: -0.0032313098, y: 0.02514394, z: 0.007559168}
+    middleOrientation:
+    - relativeDigitEndPoint: {x: -0.03061898, y: 0.020783294, z: 0.04239027}
+    - relativeDigitEndPoint: {x: -0.025844682, y: 0.005818065, z: 0.017313426}
+    - relativeDigitEndPoint: {x: -0.026365243, y: 0.028522944, z: 0.0037172139}
+    ringOrientation:
+    - relativeDigitEndPoint: {x: -0.048900325, y: 0.02069911, z: 0.02725328}
+    - relativeDigitEndPoint: {x: -0.041351568, y: 0.009289665, z: 0.0054082065}
+    - relativeDigitEndPoint: {x: -0.03904029, y: 0.023451652, z: -0.0140971625}
+    pinkyOrientation:
+    - relativeDigitEndPoint: {x: -0.0603104, y: 0.014575255, z: 0.007008504}
+    - relativeDigitEndPoint: {x: -0.050496195, y: 0.009105086, z: -0.0063014203}
+    - relativeDigitEndPoint: {x: -0.046895605, y: 0.021710012, z: -0.020658018}
+    thumbOrientation:
+    - relativeDigitEndPoint: {x: 0.016148131, y: 0.0061988374, z: -0.008099371}
+    - relativeDigitEndPoint: {x: 0.003794036, y: 0.0008994682, z: 0.014588797}
+    - relativeDigitEndPoint: {x: -0.008725063, y: -0.015388038, z: 0.04178074}
+    fingerRotations: []
+  rightHandInfo:
+    attachPosition: {x: 0.041700006, y: -0.018299993, z: -0.045099936}
+    attachRotation: {x: -0.26077223, y: -0.4267935, z: 0.5456665, w: 0.67237914}
+    indexOrientation:
+    - relativeDigitEndPoint: {x: 0.015659733, y: 0.020902237, z: 0.0498379}
+    - relativeDigitEndPoint: {x: 0.010122754, y: 0.009129818, z: 0.031907283}
+    - relativeDigitEndPoint: {x: 0.0044717025, y: 0.023696767, z: 0.007331894}
+    middleOrientation:
+    - relativeDigitEndPoint: {x: 0.032376494, y: 0.01884643, z: 0.04168519}
+    - relativeDigitEndPoint: {x: 0.027302328, y: 0.0043012253, z: 0.016421117}
+    - relativeDigitEndPoint: {x: 0.027534233, y: 0.027241942, z: 0.0032186843}
+    ringOrientation:
+    - relativeDigitEndPoint: {x: 0.05043846, y: 0.01910535, z: 0.02628825}
+    - relativeDigitEndPoint: {x: 0.04262186, y: 0.008046544, z: 0.004357194}
+    - relativeDigitEndPoint: {x: 0.03997213, y: 0.022536406, z: -0.01486135}
+    pinkyOrientation:
+    - relativeDigitEndPoint: {x: 0.06157983, y: 0.013385901, z: 0.0057781455}
+    - relativeDigitEndPoint: {x: 0.051597733, y: 0.0081067905, z: -0.0074841594}
+    - relativeDigitEndPoint: {x: 0.047738653, y: 0.020944705, z: -0.021564413}
+    thumbOrientation:
+    - relativeDigitEndPoint: {x: -0.015056555, y: 0.0049448726, z: -0.00837983}
+    - relativeDigitEndPoint: {x: -0.002353369, y: -0.000694066, z: 0.014036143}
+    - relativeDigitEndPoint: {x: 0.010622517, y: -0.0173998, z: 0.04075584}
+    fingerRotations: []

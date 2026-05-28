@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 85903bff2c6e6714aa42b41add583179
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270649
+  packageName: VR FPS Kit
+  packageVersion: 12.0.0
+  assetPath: Assets/VRFPS Kit/Scripts/XR/Hand Presence/HandPresenceCharacterMovementInteractionTrackingFixer.cs
+  uploadId: 877358

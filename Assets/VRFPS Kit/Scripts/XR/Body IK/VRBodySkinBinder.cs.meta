@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: addd27cd682149a4b924628ccb7a8999
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270649
+  packageName: VR FPS Kit
+  packageVersion: 12.0.0
+  assetPath: Assets/VRFPS Kit/Scripts/XR/Body IK/VRBodySkinBinder.cs
+  uploadId: 877358

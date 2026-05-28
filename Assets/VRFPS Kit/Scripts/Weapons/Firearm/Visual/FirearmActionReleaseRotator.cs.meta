@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 82358e13cce50ad42b24fcce6adca68f
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270649
+  packageName: VR FPS Kit
+  packageVersion: 12.0.0
+  assetPath: Assets/VRFPS Kit/Scripts/Weapons/Firearm/Visual/FirearmActionReleaseRotator.cs
+  uploadId: 877358

@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: a4f21b5d059606e4483cc24412436f18
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270649
+  packageName: VR FPS Kit
+  packageVersion: 12.0.0
+  assetPath: Assets/VRFPS Kit/Scripts/XR/XRFilterDebugger.cs
+  uploadId: 877358

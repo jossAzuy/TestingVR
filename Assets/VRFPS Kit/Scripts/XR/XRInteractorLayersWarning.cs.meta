@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 30d50ff4db1d400418fb890edc8ccbd8
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270649
+  packageName: VR FPS Kit
+  packageVersion: 12.0.0
+  assetPath: Assets/VRFPS Kit/Scripts/XR/XRInteractorLayersWarning.cs
+  uploadId: 877358

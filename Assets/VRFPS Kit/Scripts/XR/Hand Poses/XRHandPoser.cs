@@ -1,0 +1,6 @@
+/*
+This script was renamed to HandInteractionPoser.cs and is only kept
+to avoid errors when upgrading from older versions. 
+
+You can safetly DELETE THIS SCRIPT.
+*/

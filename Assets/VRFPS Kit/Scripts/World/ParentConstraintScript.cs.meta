@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 326605161d846074e9b38c905e5526c6
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270649
+  packageName: VR FPS Kit
+  packageVersion: 12.0.0
+  assetPath: Assets/VRFPS Kit/Scripts/World/ParentConstraintScript.cs
+  uploadId: 877358

@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 6b5ece9a23c87224eb0e025beb42d3d6
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270649
+  packageName: VR FPS Kit
+  packageVersion: 12.0.0
+  assetPath: Assets/VRFPS Kit/Scripts/Weapons/Firearm/Editor/FirearmTriggerEditor.cs
+  uploadId: 877358

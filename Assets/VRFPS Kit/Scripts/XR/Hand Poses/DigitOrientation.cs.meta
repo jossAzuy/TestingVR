@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 65ad5cdd184c49d45846c09f8e7414f9
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270649
+  packageName: VR FPS Kit
+  packageVersion: 12.0.0
+  assetPath: Assets/VRFPS Kit/Scripts/XR/Hand Poses/DigitOrientation.cs
+  uploadId: 877358

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 932c8166d5a7ade4698e4d231f4d5570
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270649
+  packageName: VR FPS Kit
+  packageVersion: 12.0.0
+  assetPath: Assets/VRFPS Kit/Prefabs/Objects/Player/Vest/Magazine Vest.prefab
+  uploadId: 877358

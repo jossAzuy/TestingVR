@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 0517785de41237144b589ab3329f83f4
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270649
+  packageName: VR FPS Kit
+  packageVersion: 12.0.0
+  assetPath: Assets/VRFPS Kit/Scripts/XR/Hand Poses/XRHandPoser.cs
+  uploadId: 877358

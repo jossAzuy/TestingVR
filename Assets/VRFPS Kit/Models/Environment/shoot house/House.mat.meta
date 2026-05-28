@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0e4b9e3c0073cc3409de0d2e1bcd80f6
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270649
+  packageName: VR FPS Kit
+  packageVersion: 12.0.0
+  assetPath: Assets/VRFPS Kit/Models/Environment/shoot house/House.mat
+  uploadId: 877358

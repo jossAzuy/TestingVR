@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 769959875c7b79043935fee5000b12db
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270649
+  packageName: VR FPS Kit
+  packageVersion: 12.0.0
+  assetPath: Assets/VRFPS Kit/Models/Environment/metal target/Metal Target.mat
+  uploadId: 877358

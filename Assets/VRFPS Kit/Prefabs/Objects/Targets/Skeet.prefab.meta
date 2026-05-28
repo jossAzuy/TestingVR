@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 4d22065c57eb3bd4eb44c2533f74d625
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270649
+  packageName: VR FPS Kit
+  packageVersion: 12.0.0
+  assetPath: Assets/VRFPS Kit/Prefabs/Objects/Targets/Skeet.prefab
+  uploadId: 877358

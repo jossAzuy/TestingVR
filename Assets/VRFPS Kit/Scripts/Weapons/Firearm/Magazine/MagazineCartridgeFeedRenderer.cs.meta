@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 999657980b07a934db866e14f7148dae
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270649
+  packageName: VR FPS Kit
+  packageVersion: 12.0.0
+  assetPath: Assets/VRFPS Kit/Scripts/Weapons/Firearm/Magazine/MagazineCartridgeFeedRenderer.cs
+  uploadId: 877358

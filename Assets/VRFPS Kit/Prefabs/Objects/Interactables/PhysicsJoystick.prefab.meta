@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d506a1ba3ed99ac4a8b3a7ac5f886cff
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270649
+  packageName: VR FPS Kit
+  packageVersion: 12.0.0
+  assetPath: Assets/VRFPS Kit/Prefabs/Objects/Interactables/PhysicsJoystick.prefab
+  uploadId: 877358

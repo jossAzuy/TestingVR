@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: d7fbe578e76bdf0469cbcbdaa4537b2d
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270649
+  packageName: VR FPS Kit
+  packageVersion: 12.0.0
+  assetPath: Assets/VRFPS Kit/Scripts/Weapons/Firearm/Hints/FirearmActionLockedHint.cs
+  uploadId: 877358

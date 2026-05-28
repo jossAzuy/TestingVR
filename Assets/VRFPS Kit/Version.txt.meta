@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 3a0896f604b063f44939eda5bcf4e787
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270649
+  packageName: VR FPS Kit
+  packageVersion: 12.0.0
+  assetPath: Assets/VRFPS Kit/Version.txt
+  uploadId: 877358

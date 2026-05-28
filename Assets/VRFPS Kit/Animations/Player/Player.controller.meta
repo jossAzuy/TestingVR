@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 30a76e06864c16947b1f61aa32ce87e3
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270649
+  packageName: VR FPS Kit
+  packageVersion: 12.0.0
+  assetPath: Assets/VRFPS Kit/Animations/Player/Player.controller
+  uploadId: 877358

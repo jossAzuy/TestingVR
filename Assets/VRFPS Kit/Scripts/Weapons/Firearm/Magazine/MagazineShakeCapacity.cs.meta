@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 92347deccb0f12f4094229c27ff62337
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270649
+  packageName: VR FPS Kit
+  packageVersion: 12.0.0
+  assetPath: Assets/VRFPS Kit/Scripts/Weapons/Firearm/Magazine/MagazineShakeCapacity.cs
+  uploadId: 877358

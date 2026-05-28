@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: f0396476d2ac0c743b26da9d43ae3000
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270649
+  packageName: VR FPS Kit
+  packageVersion: 12.0.0
+  assetPath: Assets/VRFPS Kit/Scripts/XR/ClimbProviderImproved.cs
+  uploadId: 877358

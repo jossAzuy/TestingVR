@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d02cb3d4049eb744aaec89df810020ab, type: 3}
+  m_Name: WMX200 Tactical Flashlight
+  m_EditorClassIdentifier: 
+  leftHandInfo:
+    attachPosition: {x: 0.03909999, y: 0.030699968, z: 0.022599995}
+    attachRotation: {x: -0.03608204, y: -0.4594913, z: 0.22568005, w: 0.8582741}
+    indexOrientation:
+    - relativeDigitEndPoint: {x: -0.012773054, y: 0.028817942, z: 0.055271547}
+    - relativeDigitEndPoint: {x: -0.014923474, y: 0.011323776, z: 0.06869119}
+    - relativeDigitEndPoint: {x: -0.012145288, y: -0.017083531, z: 0.074469246}
+    middleOrientation:
+    - relativeDigitEndPoint: {x: -0.03278677, y: 0.033681, z: 0.056520313}
+    - relativeDigitEndPoint: {x: -0.032679975, y: 0.006016936, z: 0.06702239}
+    - relativeDigitEndPoint: {x: -0.0272161, y: -0.019882485, z: 0.067066625}
+    ringOrientation:
+    - relativeDigitEndPoint: {x: -0.055486627, y: 0.034373123, z: 0.0436137}
+    - relativeDigitEndPoint: {x: -0.053142957, y: 0.010077879, z: 0.05189713}
+    - relativeDigitEndPoint: {x: -0.04861141, y: -0.013694768, z: 0.05106924}
+    pinkyOrientation:
+    - relativeDigitEndPoint: {x: -0.075765684, y: 0.024970457, z: 0.026680142}
+    - relativeDigitEndPoint: {x: -0.07559968, y: 0.010320144, z: 0.036100235}
+    - relativeDigitEndPoint: {x: -0.07242225, y: -0.008731513, z: 0.038313862}
+    thumbOrientation:
+    - relativeDigitEndPoint: {x: 0.016148278, y: 0.0061988644, z: -0.008099376}
+    - relativeDigitEndPoint: {x: 0.010311656, y: -0.004591837, z: 0.015244846}
+    - relativeDigitEndPoint: {x: 0.011078923, y: -0.024135005, z: 0.043153413}
+    fingerRotations: []
+  rightHandInfo:
+    attachPosition: {x: -0.03909999, y: 0.030699968, z: 0.022599995}
+    attachRotation: {x: -0.03608204, y: 0.4594913, z: -0.22568005, w: 0.8582741}
+    indexOrientation:
+    - relativeDigitEndPoint: {x: 0.014686321, y: 0.026577728, z: 0.054959536}
+    - relativeDigitEndPoint: {x: 0.017101046, y: 0.0088612735, z: 0.06803799}
+    - relativeDigitEndPoint: {x: 0.014521141, y: -0.019654222, z: 0.07335691}
+    middleOrientation:
+    - relativeDigitEndPoint: {x: 0.034695327, y: 0.031504408, z: 0.056006353}
+    - relativeDigitEndPoint: {x: 0.03485263, y: 0.0036612272, z: 0.0660222}
+    - relativeDigitEndPoint: {x: 0.029495498, y: -0.022258442, z: 0.06569136}
+    ringOrientation:
+    - relativeDigitEndPoint: {x: 0.057204314, y: 0.03251975, z: 0.042789504}
+    - relativeDigitEndPoint: {x: 0.05507903, y: 0.008073648, z: 0.050678965}
+    - relativeDigitEndPoint: {x: 0.050632965, y: -0.01569956, z: 0.04949967}
+    pinkyOrientation:
+    - relativeDigitEndPoint: {x: 0.07727473, y: 0.023502816, z: 0.025404986}
+    - relativeDigitEndPoint: {x: 0.07730444, y: 0.008689072, z: 0.034567624}
+    - relativeDigitEndPoint: {x: 0.07423656, y: -0.01041161, z: 0.036493}
+    thumbOrientation:
+    - relativeDigitEndPoint: {x: -0.01505652, y: 0.0049448037, z: -0.008379919}
+    - relativeDigitEndPoint: {x: -0.008837314, y: -0.0062258095, z: 0.014689194}
+    - relativeDigitEndPoint: {x: -0.009122748, y: -0.02625655, z: 0.042258784}
+    fingerRotations: []

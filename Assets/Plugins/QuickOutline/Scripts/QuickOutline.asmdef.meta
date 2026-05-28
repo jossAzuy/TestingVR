@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e15704c5d4ebbe14dada377ae14a92fe
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270649
+  packageName: VR FPS Kit
+  packageVersion: 12.0.0
+  assetPath: Assets/Plugins/QuickOutline/Scripts/QuickOutline.asmdef
+  uploadId: 877358

@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 1a4c2e8bbb2edd449a04ec9d6bc5d42d
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270649
+  packageName: VR FPS Kit
+  packageVersion: 12.0.0
+  assetPath: Assets/VRFPS Kit/Scripts/XR/GrabCollisionPreventer.cs
+  uploadId: 877358

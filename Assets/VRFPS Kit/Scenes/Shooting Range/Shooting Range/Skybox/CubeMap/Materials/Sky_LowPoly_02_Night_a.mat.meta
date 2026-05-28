@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c1c961cbd00909b45b34d97fd7df5cbf
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270649
+  packageName: VR FPS Kit
+  packageVersion: 12.0.0
+  assetPath: Assets/VRFPS Kit/Scenes/Shooting Range/Shooting Range/Skybox/CubeMap/Materials/Sky_LowPoly_02_Night_a.mat
+  uploadId: 877358

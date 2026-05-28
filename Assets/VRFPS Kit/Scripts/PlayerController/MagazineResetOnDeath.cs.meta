@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 503ff5f3867ebab468c27cd50291202d
+AssetOrigin:
+  serializedVersion: 1
+  productId: 270649
+  packageName: VR FPS Kit
+  packageVersion: 12.0.0
+  assetPath: Assets/VRFPS Kit/Scripts/PlayerController/MagazineResetOnDeath.cs
+  uploadId: 877358
